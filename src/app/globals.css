@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.landing,
+.content {
+  padding: 2rem;
+}
+
+.shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 240px 1fr;
+}
+
+.sidebar,
+.header,
+.card,
+.metricCard {
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+
+.sideNav,
+.topNav,
+.grid,
+.metricsGrid {
+  display: grid;
+  gap: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
