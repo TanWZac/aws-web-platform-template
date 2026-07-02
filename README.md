@@ -38,8 +38,8 @@ ECS services, workers, databases, and AI services
 - API client for the Python backend
 - Environment configuration through `NEXT_PUBLIC_API_BASE_URL`
 - Dockerfile for local container preview
-- GitHub Actions CI for lint and build
 - AWS deployment notes
+- CI command notes in `docs/ci.md`
 
 ## Local Development
 
@@ -69,7 +69,7 @@ For deployed environments:
 NEXT_PUBLIC_API_BASE_URL=https://api.your-platform.com
 ```
 
-The status page calls:
+The status page is intended to connect to:
 
 ```text
 GET /health/ready
@@ -81,7 +81,7 @@ These match the default routes in `aws-python-platform-template`.
 ## Build
 
 ```bash
-npm run lint
+npm run typecheck
 npm run build
 ```
 
@@ -118,4 +118,3 @@ out/
 - API session handling
 - design system components
 - observability dashboard
-- error boundary reporting
