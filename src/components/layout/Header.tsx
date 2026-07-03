@@ -12,6 +12,7 @@ export function Header() {
       <nav className="topNav">
         <Link href="/dashboard">Dashboard</Link>
         <Link href="/status">Status</Link>
+        <Link href="/health">Health</Link>
         <Link href="/login">Login</Link>
       </nav>
     </header>

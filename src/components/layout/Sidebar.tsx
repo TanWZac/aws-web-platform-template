@@ -7,6 +7,7 @@ export function Sidebar() {
       <nav className="sideNav">
         <Link href="/dashboard">Dashboard</Link>
         <Link href="/status">Backend Status</Link>
+        <Link href="/health">Health</Link>
         <Link href="/login">Login</Link>
       </nav>
     </aside>

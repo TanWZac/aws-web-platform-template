@@ -5,7 +5,7 @@ async function readJson<TData>(path: string): Promise<TData> {
   const response = await fetch(appConfig.apiBaseUrl + path);
 
   if (!response.ok) {
-    throw new Error("Request failed");
+    throw new Error(`Request failed: ${response.status} ${response.statusText}`);
   }
 
   return response.json() as Promise<TData>;

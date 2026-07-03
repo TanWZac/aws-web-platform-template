@@ -34,3 +34,45 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+.mainPanel {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.hero {
+  max-width: 640px;
+  padding: 4rem 2rem;
+}
+
+.pageTitle {
+  margin-bottom: 1.5rem;
+}
+
+.eyebrow {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #666;
+  margin: 0 0 0.25rem;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.cardHeader {
+  margin-bottom: 0.5rem;
+}
+
+.cardHeader h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+}
+
+.cardBody {
+  margin-top: 0.75rem;
+}
