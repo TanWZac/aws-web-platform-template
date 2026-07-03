@@ -1,0 +1,11 @@
+# Node/Next.js build artifacts
+node_modules/
+.next/
+out/
+coverage/
+
+# Large generated files
+package-lock.json
+
+# Graphify local artifacts
+graphify-out/cost.json

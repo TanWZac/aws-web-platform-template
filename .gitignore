@@ -13,3 +13,6 @@ pnpm-debug.log*
 .vscode/
 .idea/
 *.sh
+
+# Graphify — commit graphify-out/ for team knowledge graph, exclude local-only file
+graphify-out/cost.json
