@@ -1,0 +1,16 @@
+# Build outputs
+out/
+.next/
+node_modules/
+
+# Test coverage artifacts
+coverage/
+lcov.info
+*.lcov
+
+# Lock files (large, rarely needed)
+package-lock.json
+
+# Editor
+.vscode/
+.idea/
